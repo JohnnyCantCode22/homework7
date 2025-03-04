@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Lynch - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>John Lynch</h1>
+        <h2>Cybersecurity Intern | Penetration Tester</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am a cybersecurity intern currently working with a penetration testing team. I have a strong passion for security analysis and ethical hacking. Outside of tech, I enjoy playing sports, working out, and spending time in nature with my two dogs.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Northern Arizona University (NAU)</strong></p>
+        <p>Second-year college student pursuing a degree in Cybersecurity.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span class="skill">Penetration Testing</span>
+            <span class="skill">Network Security</span>
+            <span class="skill">Ethical Hacking</span>
+            <span class="skill">Incident Response</span>
+            <span class="skill">Vulnerability Assessment</span>
+            <span class="skill">Risk Management</span>
+            <span class="skill">Python</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Wireshark</span>
+            <span class="skill">Nmap</span>
+            <span class="skill">Metasploit</span>
+            <span class="skill">Burp Suite</span>
+            <span class="skill">SIEM Tools</span>
+            <span class="skill">Firewall Configuration</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">Web Application Security Audit</div>
+            <div class="project">Network Traffic Analysis & Intrusion Detection</div>
+            <div class="project">Secure Cloud Infrastructure Deployment</div>
+            <div class="project">Black Box Penetration Testing</div>
+        </div>
+        <div class="ongoing-project">
+            <h3>Ongoing Project</h3>
+            <p>Deadline: <span id="projectDeadline"></span></p>
+            <p>Days Remaining: <span id="daysRemaining"></span></p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <button id="downloadResume">Download Resume</button>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
